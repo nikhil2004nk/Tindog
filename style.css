@@ -1,0 +1,145 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+/*logo*/
+.logo img {
+  height: 55px;
+}
+
+/*Meet new and interesting dogs nearby.*/
+h1{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900; 
+}
+
+/*phone image png*/
+.phoneimage{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/*Navigation bar*/
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding:0px 18px;
+}
+  
+
+
+/*Overall body*/
+body{
+  font-family: 'Montserrat';
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+/*feature box*/
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+h3{
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #112bae;
+}
+
+/*testimonal section*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+/*press section*/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#pricing{
+  text-align: center;
+padding: 100px;
+}
+
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+.card-header{
+
+  background-color: #ef8172;
+}
+
+
+@media(max-width:1028px) {
+.phoneimage{
+      transform: rotate(0);
+      margin-top:30px ;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 4.5rem;
+  text-align:center;
+}
+
+#cta h3{
+  font-size: 3rem;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+footer{
+  padding: 10%;
+  text-align: center;
+}
+
